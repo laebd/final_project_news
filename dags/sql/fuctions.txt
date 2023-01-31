@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE public.end_table(IN p_path text)
+CREATE OR REPLACE PROCEDURE public.into_table(IN p_path text)
 LANGUAGE plpgsql
 AS $procedure$
 begin
